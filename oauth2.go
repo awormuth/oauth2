@@ -7,8 +7,6 @@
 // It can additionally grant authorization with Bearer JWT.
 package oauth2 
 
-import "golang.org/x/oauth2"
-
 import (
 	"bytes"
 	"errors"
@@ -17,6 +15,7 @@ import (
 	"strings"
 	"sync"
 
+	"golang.org/x/oauth2"
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2/internal"
 )
